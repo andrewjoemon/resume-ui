@@ -11,7 +11,7 @@ function Nav({Reset}){
        
         
         <header className="t46" >
-            <Link to="/" id="t47">Home</Link>
+            <Link to="https://andrewjoemon.github.io/resume-ui/" id="t47">Home</Link>
             <Link to="/Temp"  onClick={Load} id="t47">Templates</Link>
             <Link to="/About" id="t47">About</Link>
             

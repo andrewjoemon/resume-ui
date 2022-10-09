@@ -21,7 +21,7 @@ function App() {
     <div className='root1' >
       <Nav Reset={Reset}></Nav>
         <Routes>       
-        <Route path="/" exact element={<Home Reset={Reset}/>}></Route>
+        <Route path="https://andrewjoemon.github.io/resume-ui/" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/About" element={<About data={ds}/>}></Route>
         <Route path="/Form" element={<Form inputs={inputs} setInput={setInput} Reset={Reset}/>}></Route>
         <Route path="/Temp" element={<Temp/>}></Route>
