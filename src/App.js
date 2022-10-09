@@ -20,6 +20,7 @@ function App() {
   return (
     <div className='root1' >
       <Nav Reset={Reset}></Nav>
+      <Home />
         <Routes>       
         <Route path="/" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/About" element={<About data={ds}/>}></Route>
