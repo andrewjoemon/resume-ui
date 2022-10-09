@@ -1,0 +1,51 @@
+#t1{
+    width:606px;
+    height: 20px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    
+    
+    
+}
+#t2{
+    width: 600px;
+    height: 340px;
+    margin: 0px;
+    border: 0ch;
+    background-color: rgb(220, 199, 199);
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    
+}
+
+#rd{
+    text-align:center;
+    background-color:rgb(51, 20, 20);
+    color:whitesmoke;
+    text-shadow: 10px;
+    font-size: 20px;
+    width:max-content;
+    height: 30px;
+}
+
+
+#basic{
+    height: 40px;
+}
+
+#u1{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#l1{
+    float: left;
+    
+}
+input{
+    width: 70%;
+}
