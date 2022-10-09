@@ -24,7 +24,7 @@ function App() {
         <Route path="/" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/About" element={<About data={ds}/>}></Route>
         <Route path="/Form" element={<Form inputs={inputs} setInput={setInput} Reset={Reset}/>}></Route>
-        <Route path="/Temp" element={<Temp/>}></Route>
+        <Route path="/Temp" exact element={<Temp/>}></Route>
         <Route path="/Template" element={<Template inputs={inputs}/>}></Route>
         </Routes>
    
