@@ -20,6 +20,8 @@ function App() {
   return (
     <div className='root1' >
       <Nav Reset={Reset}></Nav>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+
         <Routes>       
         <Route path="/resume-ui" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/resume-ui/About" element={<About data={ds}/>}></Route>
@@ -27,6 +29,7 @@ function App() {
         <Route path="/resume-ui/Temp" exact element={<Temp/>}></Route>
         <Route path="/resume-ui/Template" element={<Template inputs={inputs}/>}></Route>
         </Routes>
+        </BrowserRouter>
    
       
     </div>
