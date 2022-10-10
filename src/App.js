@@ -5,7 +5,7 @@ import Form from './Components/Form/Form';
 import Home from './Components/Home/Home';
 import Temp from './Components/Temp/Temp';
 import About from './Components/About/About';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Template from './Components/Template/Template';
 import { useState } from 'react';
 function App() {
@@ -20,8 +20,7 @@ function App() {
   return (
     <div className='root1' >
       <Nav Reset={Reset}></Nav>
-      <HashRouter basename={process.env.PUBLIC_URL}>
-
+      
         <Routes>       
         <Route path="/resume-ui" exact element={<Home Reset={Reset}/>}></Route>
         <Route path="/resume-ui/About" element={<About data={ds}/>}></Route>
@@ -29,7 +28,6 @@ function App() {
         <Route path="/resume-ui/Temp" exact element={<Temp/>}></Route>
         <Route path="/resume-ui/Template" element={<Template inputs={inputs}/>}></Route>
         </Routes>
-        </HashRouter>
    
       
     </div>
