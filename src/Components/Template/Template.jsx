@@ -131,7 +131,6 @@ function Template({inputs}) {
     
     </div>
     <button className='btn23' onClick={print1}> Download Resume</button>
-    <button primary onClick={download}>Download</button>
     </div>
   )
 }
