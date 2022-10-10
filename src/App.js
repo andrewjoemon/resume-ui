@@ -21,11 +21,11 @@ function App() {
     <div className='root1' >
       <Nav Reset={Reset}></Nav>
         <Routes>       
-        <Route path="/" exact element={<Home Reset={Reset}/>}></Route>
-        <Route path="/About" element={<About data={ds}/>}></Route>
-        <Route path="/Form" element={<Form inputs={inputs} setInput={setInput} Reset={Reset}/>}></Route>
-        <Route path="/Temp" exact element={<Temp/>}></Route>
-        <Route path="/Template" element={<Template inputs={inputs}/>}></Route>
+        <Route path="/resume-ui" exact element={<Home Reset={Reset}/>}></Route>
+        <Route path="/resume-ui/About" element={<About data={ds}/>}></Route>
+        <Route path="/resume-ui/Form" element={<Form inputs={inputs} setInput={setInput} Reset={Reset}/>}></Route>
+        <Route path="/resume-ui/Temp" exact element={<Temp/>}></Route>
+        <Route path="/resume-ui/Template" element={<Template inputs={inputs}/>}></Route>
         </Routes>
    
       
