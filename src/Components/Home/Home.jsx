@@ -7,7 +7,7 @@ function Home({Reset}){
     return(
         <div className="r4">
         <h1 className="hclass">WELCOME TO MY PAGE</h1>
-        <h1><Link to='/resume-ui/Form' onFocus={Reset} id="centerbtn">Create New Resume</Link></h1>
+        <h1><Link to='/Form' onFocus={Reset} id="centerbtn">Create New Resume</Link></h1>
         </div>
     );
     }
