@@ -1,6 +1,7 @@
 import React from "react";
 import './navbar.css';
 import { Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 function Nav({Reset}){ 
     const Load=()=>{
